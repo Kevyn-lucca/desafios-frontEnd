@@ -10,6 +10,8 @@ body{
     background-size: contain;
 }
 
+
+
 .info-section{
     background-color: white;
     border-radius: 20px;
@@ -53,6 +55,7 @@ body{
 .info-section p{
     padding-left: 40px;
     margin-top: 0px;
+    margin-right: 75px;
 }
 
 .info-section div{
@@ -77,4 +80,30 @@ body{
     margin-left: 40px;
     padding-top: 30px;
     padding-bottom: 30px;
+}
+
+@media only screen and (max-width: 428px) {
+
+    body{background-size: unset;}
+    
+    .info-section{
+        margin-left: 30px; 
+        margin-right: 30px 
+    };
+    
+    
+}
+    
+
+/*width 800*/
+@media only screen and (width: 800px){
+
+    body{background-size: unset;}
+    
+    .info-section{
+        width: 450px;
+        margin-left: 200px;
+        margin-right: 30px;
+    };
+    
 }

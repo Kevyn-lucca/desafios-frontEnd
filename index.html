@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <title>Acordiom</title>
 </head>
 <body>
     <section class="info-section">
@@ -19,25 +19,25 @@
         <h1>FAQs</h1>
         </div>
         <div>      
-            <h2>Some info man</h2> 
-            <button ><img src="assets\images\icon-plus.svg"></button>
+            <h2 onclick="DisplayText('Text1')">Some info man</h2> 
+            <button onclick="DisplayText('Text1')"><img src="assets\images\icon-plus.svg" id="Text1-img"></button>
         </div>
-            <p>lore</p>
+            <p id="first-text"></p>
         <div>
-            <h2>More info bro</h2>
-            <button><img src="assets\images\icon-plus.svg"></button>
+            <h2 onclick="DisplayText('Text2')">More info bro</h2>
+            <button onclick="DisplayText('Text2')"><img src="assets\images\icon-plus.svg" id="Text2-img"></button>
         </div>
-            <p>more info</p>
+            <p id="second-text"></p>
         <div>
-            <h2>More info bro</h2>
-            <button><img src="assets\images\icon-plus.svg"></button>
+            <h2 onclick="DisplayText('Text3')">More info bro</h2>
+            <button onclick="DisplayText('Text3')"><img src="assets\images\icon-plus.svg" id="Text3-img"></button>
         </div>
-            <p>more info</p>
+            <p id="third-text"></p>
         <div>
-            <h2 >More info bro</h2>
-            <button><img src="assets\images\icon-plus.svg"></button>
+            <h2 onclick="DisplayText('Text4')">More info bro</h2>
+            <button onclick="DisplayText('Text4')"><img src="assets\images\icon-plus.svg" id="Text4-img"></button>
         </div>
-            <p>more info</p>    
+            <p id="last-text"></p>    
     </section>
     <script src="script.js"></script>
 </body>
