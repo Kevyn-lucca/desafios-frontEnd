@@ -11,10 +11,10 @@ let TextFourImg = document.querySelector("#Text4-img");
 
 //defines wich buttons have been clicked, since none have been clicked, it starts as false!
 
-let ButtonOneclick = false
-let ButtonTwoclick = false
-let ButtonThreeclick = false
-let ButtonFourclick = false
+let ButtonOneclick = true;
+let ButtonTwoclick = false;
+let ButtonThreeclick = false;
+let ButtonFourclick = false;
 
 /*
 checks the buttom id and if its been clicked, if its "false", it displays the text and changes the img! 
